@@ -8,18 +8,18 @@ Copy and paste this directly into your GitHub repository's `README.md` file:
 
 ---
 
-# 📊 Retail Sales & Customer Analytics Database (MySQL)
+#  Retail Sales & Customer Analytics Database (MySQL)
 
 **Course:** CSE 330 (Databases) - ISRT, University of Dhaka  
 **Semester:** 2025  
 **Project Type:** Comprehensive SQL & Statistical Analytics Portfolio  
 
-## 📝 Project Overview
+##  Project Overview
 This project demonstrates a complete end-to-end database implementation and data analysis workflow using **MySQL**. It moves beyond basic CRUD operations to showcase advanced query mechanics, database programmability (UDFs), and statistical analysis (correlation and regression) performed directly within the SQL environment.
 
 The database models a simplified E-Commerce system tracking customers, products, orders, and order details.
 
-## 🎯 Syllabus Coverage Matrix
+##  Syllabus Coverage Matrix
 This project was specifically designed to cover every topic outlined in the CSE 330 syllabus:
 
 | Syllabus Topic | Where it is implemented in this repo |
@@ -36,7 +36,7 @@ This project was specifically designed to cover every topic outlined in the CSE 
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 *   **`01_schema_and_data.sql`**: Contains the `CREATE TABLE` statements (with appropriate Primary/Foreign keys and `DECIMAL`, `DATETIME` data types) and `INSERT` statements to populate the database with realistic dummy data.
 *   **`02_good_statements_gone_bad.sql`**: Scripts that intentionally trigger errors (e.g., Foreign Key violations, inserting strings into INT columns) to demonstrate robust database design and error handling.
@@ -49,7 +49,7 @@ This project was specifically designed to cover every topic outlined in the CSE 
 
 ---
 
-## 🛠️ Tech Stack & Setup
+##  Tech Stack & Setup
 *   **Database Engine:** MySQL 8.0+
 *   **Tools Used:** MySQL Workbench / DBeaver
 
@@ -61,7 +61,7 @@ This project was specifically designed to cover every topic outlined in the CSE 
 
 ---
 
-## 🔍 Highlighted Queries
+##  Highlighted Queries
 
 ### 1. Window Functions (Ranking)
 *See `04_advanced_analytics.sql`*
@@ -84,11 +84,11 @@ Calculates the slope of the regression line between `Discount_Rate` and `Quantit
 
 ---
 
-## 👨‍💻 Author
-**[Your Name]**
-*   Student ID: [Your ID]
-*   Institute of Information Technology / ISRT, University of Dhaka
-*   Course: CSE 330 (Databases)
+##  Author
+**Md. Fahimuzzaman**
+*   Registration Number ID: [2023916089]
+*   Institute of Applied Statistics and Data Science / IASDS, University of Dhaka
+*   Course: CSE 330 (SQL for Data Science)
 
 ---
 *Disclaimer: The data used in this project is synthetic and generated for educational purposes only.*
